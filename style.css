@@ -2,61 +2,83 @@
 
 body {
 	background-image: url("background-pattern-dark.png");
+	font-size: calc(12px + 1vmin);
 }
 
-.title-banner {
-	margin-bottom: 2em;
-}
-
-.title-banner img {
-	max-width: 100%;
-	height: auto;
-}
-
-
-.main-content-wrapper {
-	color: white;
-	display: block;
-	/* background-color: rgba(255, 255, 255, 0.8); */
-	/* background-color: #b25068; */
-	/* border: 1em; */
-	/* border-radius: 4px; */
-	max-width: 1000px;
-
+.title-banner-container {
 	text-align: center;
-	margin: 0 auto;
+	background-color: #b25068;
+	height: calc(20px + 4vh);
+	margin-bottom: 1.5em;
 }
 
-.main-content-container {
-	opacity: 1.0;
-	display: block;
+.vertical-align-helper {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
 }
 
-.main-content-container a {
+.title-banner-container img {
+	margin: auto;
+	height: calc(10px + 3vh);
+	vertical-align: middle;
+}
+
+.index-links-container {
+	text-align: center;
+	color: antiquewhite;
+}
+
+.index-links-container a {
 	transition-property: color;
 	transition-duration: 0.2s;
 	color: goldenrod;
     text-decoration: none;
 }
 
-.main-content-container a:hover {
+.index-links-container a:hover {
 	color: gold;
     text-decoration: none;
 }
 
-/* .main-content-container a:visited {
-	color: goldenrod;
-    text-decoration: none;
-} */
-
-.header-section {
-	font-weight: 100;
-	margin: 0.4em 0em 0.3em;
+.page-container {
+	color: #111111;
+	background-color: rgba(220, 220, 220, 0.95);
+	box-shadow: 0 6px 20px 5px rgba(0, 0, 0, 0.7);
+	max-width: 75ch;
+	margin: 1em auto;
+	padding: 1.5vh 6vw 10vh;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.footer-content-container {
-	margin-top: 5em;
+.page-container h2 {
+	/* margin-bottom: 0.8em; */
+	text-align: center;
+}
+
+.page-container p {
+	margin-top: 0.8em;
+}
+
+.games-container {
+	margin-top: 2em;
+	text-align: center;
+}
+
+.games-container iframe {	
+	transition-property: box-shadow;
+	transition-duration: 0.2s;
+	box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+}
+
+.games-container iframe:hover {	
+	box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.7);
+}
+
+.footer-container {
+	margin-top: 4.5em;
 	font-weight: 100;
-	color: rgb(255, 255, 255, 0.1);
+	font-size: smaller;
+	color: rgb(255, 255, 255, 0.5);
 	text-align: center;
 }
