@@ -47,7 +47,7 @@ body {
 	text-align: center;
 	background-color: #b25068;
 	height: calc(20px + 4vh);
-	margin-bottom: 1.5em;
+	/* margin-bottom: 1.5em; */
 }
 
 .vertical-align-helper {
@@ -64,30 +64,46 @@ body {
 
 .index-links-container {
 	text-align: center;
-	color: antiquewhite;
+	/* color: antiquewhite; */
 }
 
 .index-links-container a {
 	transition-property: color;
 	transition-duration: 0.2s;
-	color: goldenrod;
+	/* color: goldenrod; */
+	color: #b25068;
     text-decoration: none;
 }
 
 .index-links-container a:hover {
-	color: gold;
+	color: #f25068;
+	/* color: gold; */
     text-decoration: none;
 }
 
 .page-container {
-	color: #111111;
-	background-color: rgba(220, 220, 220, 0.95);
-	box-shadow: 0 6px 20px 5px rgba(0, 0, 0, 0.7);
+	/* color: #111111; */
+	color: #eeeeee;
+	/* background-color: rgba(220, 220, 220, 0.9); */
+	background-color: rgba(0, 0, 0, 0.3);
+	backdrop-filter: blur(4px) saturate(150%);
+	/* box-shadow: 0 6px 20px 5px rgba(0, 0, 0, 0.0); */
+	/* box-shadow: 0 3px 2px 0px rgba(0, 0, 0, 0.2); */
 	max-width: 75ch;
-	margin: 1em auto;
+	margin: 0 auto;
 	padding: 1.5vh 6vw 10vh;
 	padding: 1.5vh var(--page-horizontal-padding) 10vh;
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.page-container a {
+	transition-property: color;
+	transition-duration: 0.2s;
+	color: #b25068;
+}
+
+.page-container a:hover {
+	color: #f25068;
 }
 
 .page-container h2 {
