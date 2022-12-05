@@ -1,0 +1,23 @@
+* { margin: 0; padding: 0; }
+
+body {
+	background-image: url("background-pattern-dark.png");
+}
+
+.title-banner-container {
+	text-align: center;
+	background-color: #b25068;
+	height: 7vh;
+}
+
+.title-banner-container img {
+	padding-top: 1vh;
+	height: 5vh;
+}
+
+/* .title-banner img {
+	margin-left: 50%;
+	transform: translateX(-50%);
+	min-width: 700px;
+	height: 100px;
+} */
