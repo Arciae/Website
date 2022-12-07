@@ -43,6 +43,10 @@ body {
 	font-size: calc(12px + 1vmin);
 }
 
+.preformatted {
+	white-space: pre-wrap;
+}
+
 .title-banner-container {
 	text-align: center;
 	background-color: #b25068;
