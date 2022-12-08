@@ -41,6 +41,7 @@
 body {
 	background-image: url("background-pattern-dark.png");
 	font-size: calc(12px + 1vmin);
+	color: #b25068;
 }
 
 .preformatted {
