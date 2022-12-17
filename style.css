@@ -126,6 +126,10 @@ body {
 	text-align: center;
 }
 
+.games-container a {
+	text-decoration: none;
+}
+
 .games-container iframe {	
 	transition-property: box-shadow;
 	transition-duration: 0.2s;
